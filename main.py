@@ -44,7 +44,7 @@ def MyCrud():
             html.input(
                 {
                     "type": "test",
-                    "placeholder": "ame",
+                    "placeholder": "name",
                     "on_change": lambda event: set_name(event["target"]["value"]),
                 }
             ),
