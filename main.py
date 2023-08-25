@@ -40,7 +40,7 @@ def MyCrud():
         ## creating form for submission\
         html.form(
             {"onsubmit": mysubmit},
-            html.h1("Login Form - Welcome to my world"),
+            html.h1("Welcome to my world"),
             html.input(
                 {
                     "type": "test",
